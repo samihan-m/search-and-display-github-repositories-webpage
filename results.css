@@ -1,0 +1,90 @@
+body {
+  background-color: #222;
+  color: #eee;
+}
+
+.center {
+  text-align: center;
+}
+
+.bigFont {
+  font-size: 2em;
+}
+
+.smallFont {
+  font-size: 0.8em;
+}
+
+.verticalFlex {
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.horizontalFlex {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+  padding: 1em;
+}
+
+#repoList {
+  padding-top: 5px;
+}
+
+.whiteBorder {
+  border: 3px solid white;
+}
+
+.repoDisplayPanel {
+  background-color: #111;
+  
+  border: 2px solid white;
+
+  margin: 5px;
+
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.repoDisplayPanelRow {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
+button {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font: inherit;
+}
+button:active {
+  background-color: #555;
+}
+button:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+a[class="button"] {
+  color: white;
+}
+a:link[class="button"], a:visited[class="button"] {
+  border: 3px solid white;
+  border-radius: 10px;
+  background-color: #222;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+a:hover[class="button"], a:active[class="button"] {
+  background-color: #555;
+}
