@@ -26,7 +26,6 @@ $account_name = $_GET["github_account_name"];
 			</h2>
 			<div id="dashboard">
 				Things To See
-				<?php echo $_GET["github_account-name"]?>
 				<div class="verticalFlex">
 					<?php
 					$link = "https://github.com/{$account_name}";
